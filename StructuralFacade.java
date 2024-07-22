@@ -43,7 +43,7 @@ class ComputerFacade {
         cpu.execute();
     }
 }
-public class Main {
+class StructuralFacade {
     public static void main(String[] args) {
         ComputerFacade computer = new ComputerFacade();
         computer.start();
