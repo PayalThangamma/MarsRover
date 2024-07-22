@@ -1,18 +1,13 @@
 //Use case: Adapting an XML data source to a JSON data consumer.
-// XMLData.java
-public class XMLData {
+class XMLData {
     public String getXml() {
         return "<data><item>item1</item></data>";
     }
 }
-
-// JSONData.java
-public interface JSONData {
+interface JSONData {
     String getJson();
 }
-
-// Adapter.java
-public class Adapter implements JSONData {
+class Adapter implements JSONData {
     private XMLData xmlData;
 
     public Adapter(XMLData xmlData) {
@@ -27,9 +22,7 @@ public class Adapter implements JSONData {
         return jsonData;
     }
 }
-
-// Main.java
-public class Main {
+class StructuralAdapter {
     public static void main(String[] args) {
         XMLData xmlData = new XMLData();
         Adapter adapter = new Adapter(xmlData);
