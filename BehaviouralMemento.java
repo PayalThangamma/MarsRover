@@ -44,7 +44,7 @@ class Caretaker {
         return mementoList.get(index);
     }
 }
-class Main {
+class BehaviouralMemento {
     public static void main(String[] args) {
         Originator originator = new Originator();
         Caretaker caretaker = new Caretaker();
