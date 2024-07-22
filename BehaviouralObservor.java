@@ -52,7 +52,7 @@ ConcreteObserver2 extends Observer {
         System.out.println("ConcreteObserver2: State changed to: " + subject.getState());
     }
 }
-class Main {
+class BehaviouralObservor {
     public static void main(String[] args) {
         Subject subject = new Subject();
 
