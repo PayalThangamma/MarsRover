@@ -47,7 +47,7 @@ class HouseBuilder {
         return house;
     }
 }
-class Main {
+class CreationalBuilder{
     public static void main(String[] args) {
         HouseBuilder builder = new HouseBuilder();
         House house = builder.buildWalls("Brick Walls").buildRoof("Metal Roof").buildInterior("Modern Interior").getHouse();
