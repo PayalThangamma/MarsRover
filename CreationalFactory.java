@@ -24,7 +24,7 @@ public class AnimalFactory {
         }
     }
 } 
-class Main {
+class CreationalFactory{
     public static void main(String[] args) {
         Animal animal = AnimalFactory.createAnimal("dog");
         System.out.println(animal.speak());
