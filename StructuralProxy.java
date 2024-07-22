@@ -16,7 +16,7 @@ class Proxy {
         return realSubject.request();
     }
 }
-class Main {
+class StructuralProxy {
     public static void main(String[] args) {
         RealSubject realSubject = new RealSubject();
         Proxy proxy = new Proxy(realSubject);
