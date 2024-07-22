@@ -1,4 +1,4 @@
-# MarsRover
+# MarsRover and Excercise 2
 Simulation of Mars Rover
 Mars Rover Programming Exercise
 Problem Statement
@@ -22,6 +22,23 @@ Grid Size: (10 x 10)
 Starting Position: (0, 0, N)
 Commands: ['M', 'M', 'R', 'M', 'L', 'M']
 Obstacles: [(2, 2), (3, 5)]
-Possible Outputs
-Final Position: (1, 3, E)
-Status Report: "Rover is at (1, 3) facing East. No Obstacles detected."
+Possible Outputs: Final Position: (1, 3, E)
+                  Status Report: "Rover is at (1, 3) facing East. No Obstacles detected."
+
+
+You are requested to finish the following design pattern with a proper use case and turn-in via GitHub. Coding should be done in Java language.
+
+    A. Structural
+    1. Adapter - correct
+    2. Facade - corrected
+    3. Proxy - correct
+
+    B. Creational
+    1. Singleton
+    2. Factory
+    3. Builder
+
+    C. Behavioural
+    1. Chain of responsibility
+    2. Memento
+    3. Observer
